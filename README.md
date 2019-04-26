@@ -15,7 +15,7 @@ Nuget: [https://www.nuget.org/packages/WuMortal.Dmhy](https://www.nuget.org/pack
 
 「动漫花园」WebAPI：DotNet Core 开发，[进入查看](https://github.com/WuMortal) 待整理中。
 
-「动漫花园」WebAPP：Angular 6 开发， [进入查看](https://github.com/WuMortal) 待整理中。
+「动漫花园」WebApp：Angular 6 开发， [进入查看](https://github.com/WuMortal) 待整理中。
 ## 使用方法 ： 
 
 所有方法均为异步方法
