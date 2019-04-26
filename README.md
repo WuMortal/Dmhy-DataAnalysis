@@ -2,7 +2,7 @@
 
 该项目是之前用于分析 「动漫花园」 网站，现在分享给大家。
 
-Nuget:[https://www.nuget.org/packages/WuMortal.Dmhy](https://www.nuget.org/packages/WuMortal.Dmhy)
+Nuget: [https://www.nuget.org/packages/WuMortal.Dmhy](https://www.nuget.org/packages/WuMortal.Dmhy)
 
 安装：
 
