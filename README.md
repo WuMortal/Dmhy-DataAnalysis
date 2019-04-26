@@ -1,6 +1,6 @@
 # 介绍：
 
-该项目是之前用于获取 「动漫花园」 网站的数据，现在分享给大家。
+该项目是之前用于分析 「动漫花园」 网站，现在分享给大家。
 
 Nuget:[https://www.nuget.org/packages/WuMortal.Dmhy](https://www.nuget.org/packages/WuMortal.Dmhy)
 
@@ -12,7 +12,9 @@ Nuget:[https://www.nuget.org/packages/WuMortal.Dmhy](https://www.nuget.org/packa
 
 ## 开源地址：
 「动漫花园」数据分析：[进入查看](https://github.com/WuMortal/Dmhy-DataAnalysis)
+
 「动漫花园」WebAPI：DotNet Core 开发，[进入查看](https://github.com/WuMortal) 待整理中。
+
 「动漫花园」WebAPP：Angular6 开发， [进入查看](https://github.com/WuMortal) 待整理中。
 ## 使用方法 ： 
 
