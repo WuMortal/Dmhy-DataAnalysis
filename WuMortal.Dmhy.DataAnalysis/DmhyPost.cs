@@ -27,7 +27,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         /// <returns></returns>
         public async Task<DPost[]> GetTopsDataByCategoryIdAsync(long categoryId, long pageIndex)
         {
-            string url = "https://share.dmhy.org/topics/list/sort_id/" + categoryId + "/page/" + pageIndex;
+            string url = "/topics/list/sort_id/" + categoryId + "/page/" + pageIndex;
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 
@@ -43,7 +43,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         /// <returns></returns>
         public async Task<DPost[]> GetTopsDataByKeyWordAsync(string keyWord, long pageIndex)
         {
-            string url = "https://share.dmhy.org//topics/list/page/" + pageIndex + $"?keyword={keyWord}";
+            string url = "//topics/list/page/" + pageIndex + $"?keyword={keyWord}";
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 
@@ -57,7 +57,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         /// <returns></returns>
         public async Task<DPost[]> GetTopsDataByPageIndexAsync(long pageIndex)
         {
-            string url = "https://share.dmhy.org//topics/list/page/" + pageIndex;
+            string url = "//topics/list/page/" + pageIndex;
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 
@@ -72,7 +72,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         /// <returns></returns>
         public async Task<DPost[]> GetTopsDataByTeamIdAsync(long userId, long pageIndex)
         {
-            string url = $"https://share.dmhy.org/topics/list/team_id/{userId}/page/{pageIndex}";
+            string url = $"/topics/list/team_id/{userId}/page/{pageIndex}";
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 
@@ -87,7 +87,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         /// <returns></returns>
         public async Task<DPost[]> GetTopsDataByUserIdAsync(long userId, long pageIndex)
         {
-            string url = $"https://share.dmhy.org/topics/list/user_id/{userId}/page/{pageIndex}";
+            string url = $"/topics/list/user_id/{userId}/page/{pageIndex}";
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 

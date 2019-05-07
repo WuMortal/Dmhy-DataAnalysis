@@ -28,7 +28,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         {
             List<DDramaIndex> dramaIndexModels = new List<DDramaIndex>();
 
-            string url = "https://share.dmhy.org/";
+            string url = "/";
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 
@@ -116,7 +116,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         {
             List<DCategory> listCategories = new List<DCategory>();
 
-            string url = "https://share.dmhy.org/topics/advanced-search";
+            string url = "/topics/advanced-search";
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 
@@ -154,7 +154,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         {
             List<DTeam> listTeams = new List<DTeam>();
 
-            string url = "https://share.dmhy.org/topics/advanced-search";
+            string url = "/topics/advanced-search";
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 
@@ -191,7 +191,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         {
             List<DHotPost> listHotPosts = new List<DHotPost>();
 
-            string url = "https://share.dmhy.org/topics/view/495541_LAC_Gintama_356_720P.html";
+            string url = "/topics/view/495541_LAC_Gintama_356_720P.html";
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 

@@ -27,7 +27,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         /// <returns></returns>
         public async Task<DPostDetailed> GetPostDetailedAsync(string Id)
         {
-            string url = $"https://share.dmhy.org/topics/view/{Id}.html";
+            string url = $"/topics/view/{Id}.html";
 
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
@@ -44,7 +44,7 @@ namespace WuMortal.Dmhy.DataAnalysis
         {
             List<DComment> commentsList = new List<DComment>();
 
-            string url = $"https://share.dmhy.org/comment/recent/topic_id/{postId}?stamp={DateTime.Now}";
+            string url = $"/comment/recent/topic_id/{postId}?stamp={DateTime.Now}";
 
             string html = await Common.DownloadHtmlAsync(_httpClient, url);
 
