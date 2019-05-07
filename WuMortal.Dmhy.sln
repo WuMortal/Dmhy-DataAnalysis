@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WuMortal.Dmhy.DataAnalysis", "WuMortal.Dmhy.DataAnalysis\WuMortal.Dmhy.DataAnalysis.csproj", "{47780AE3-F788-4F07-A414-71F2C8057F79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WuMortal.Dmhy.UnitTest", "WuMortal.Dmhy.UnitTest\WuMortal.Dmhy.UnitTest.csproj", "{393ADB6A-A725-4D7E-A867-3BD5C2EB35C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WuMortal.Dmhy.UnitTest", "WuMortal.Dmhy.UnitTest\WuMortal.Dmhy.UnitTest.csproj", "{393ADB6A-A725-4D7E-A867-3BD5C2EB35C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WuMortal.Dmhy.WebTest", "WuMortal.Dmhy.WebTest\WuMortal.Dmhy.WebTest.csproj", "{CA1A459C-6B2D-441B-B225-0E7B300BB4E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{393ADB6A-A725-4D7E-A867-3BD5C2EB35C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{393ADB6A-A725-4D7E-A867-3BD5C2EB35C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{393ADB6A-A725-4D7E-A867-3BD5C2EB35C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1A459C-6B2D-441B-B225-0E7B300BB4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1A459C-6B2D-441B-B225-0E7B300BB4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1A459C-6B2D-441B-B225-0E7B300BB4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1A459C-6B2D-441B-B225-0E7B300BB4E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

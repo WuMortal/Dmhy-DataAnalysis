@@ -11,12 +11,12 @@ namespace WuMortal.Dmhy.DataAnalysis.Core
 {
     public static class DmhyExtensions
     {
-        public static IServiceCollection UseDmhyAnalysis(this IServiceCollection serviceCollection)
+        public static IServiceCollection AddDmhyAnalysis(this IServiceCollection serviceCollection)
         {
             if (serviceCollection == null)
                 throw new ArgumentNullException(nameof(serviceCollection));
 
-            var types = Assembly.GetAssembly(typeof(DmhyInfo)).GetTypes().Where(w => w.Name.StartsWith("Dmhy") && w.IsClass && !w.IsAbstract);
+            var types = Assembly.GetAssembly(typeof(DmhyInfo)).GetTypes().Where(w => w.Namespace == "WuMortal.Dmhy.DataAnalysis" && w.Name.StartsWith("Dmhy") && w.IsClass && !w.IsAbstract);
 
             foreach (var type in types)
             {
