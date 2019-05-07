@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/WuMortal/Dmhy-DataAnalysis</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/WuMortal/Dmhy-DataAnalysis.git</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <Description>该项目是用于分析 「动漫花园」 网站的 Nuget 包。
+项目使用 HtmlAgilityPack 解析「动漫花园」所爬取到的网页数据。</Description>
+    <Version>0.2.0</Version>
+    <PackageId>WuMortal.Dmhy</PackageId>
+    <Authors>WuMortal</Authors>
+    <Company />
   </PropertyGroup>
 
   <ItemGroup>
