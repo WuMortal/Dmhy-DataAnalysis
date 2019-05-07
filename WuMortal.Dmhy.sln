@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WuMortal.Dmhy", "WuMortal.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WuMortal.Dmhy.Test", "WuMortal.Dmhy.Test\WuMortal.Dmhy.Test.csproj", "{51218459-2DD1-4E96-AC9E-ACD925245B99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WuMortal.Dmhy.DataAnalysis", "WuMortal.Dmhy.DataAnalysis\WuMortal.Dmhy.DataAnalysis.csproj", "{47780AE3-F788-4F07-A414-71F2C8057F79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{51218459-2DD1-4E96-AC9E-ACD925245B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51218459-2DD1-4E96-AC9E-ACD925245B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51218459-2DD1-4E96-AC9E-ACD925245B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47780AE3-F788-4F07-A414-71F2C8057F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47780AE3-F788-4F07-A414-71F2C8057F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47780AE3-F788-4F07-A414-71F2C8057F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47780AE3-F788-4F07-A414-71F2C8057F79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
