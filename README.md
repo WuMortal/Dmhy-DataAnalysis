@@ -104,5 +104,5 @@ public class ValuesController : ControllerBase
 # v1.0 使用方法 ：
 
 推荐使用 v2.0
-
+> Install-Package WuMortal.Dmhy -Version 0.1.3
 v1.0 项目地址：[https://github.com/WuMortal/Dmhy-DataAnalysis/tree/v1.0](https://github.com/WuMortal/Dmhy-DataAnalysis/tree/v1.0)
