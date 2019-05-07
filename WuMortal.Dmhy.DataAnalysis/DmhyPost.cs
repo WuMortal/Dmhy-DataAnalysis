@@ -1,8 +1,7 @@
-﻿using System;
+﻿using HtmlAgilityPack;
+using System;
 using System.Collections.Generic;
-using System.Net.Http;
 using System.Threading.Tasks;
-using HtmlAgilityPack;
 using WuMortal.Dmhy.DataAnalysis.Core;
 using WuMortal.Dmhy.DataAnalysis.IClient;
 using WuMortal.Dmhy.DataAnalysis.Interface;
