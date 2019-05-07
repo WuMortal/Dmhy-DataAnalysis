@@ -9,7 +9,7 @@ using WuMortal.Dmhy.DataAnalysis.IClient;
 
 namespace WuMortal.Dmhy.DataAnalysis.Core
 {
-    public static class DmhyCore
+    public static class DmhyExtensions
     {
         public static IServiceCollection UseDmhyAnalysis(this IServiceCollection serviceCollection)
         {
