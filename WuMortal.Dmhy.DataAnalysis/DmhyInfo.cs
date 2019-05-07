@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 using WuMortal.Dmhy.DataAnalysis.Core;
+using WuMortal.Dmhy.DataAnalysis.IClient;
 using WuMortal.Dmhy.DataAnalysis.Interface;
 using WuMortal.Dmhy.DataAnalysis.Models;
 using WuMortal.Dmhy.DataAnalysis.Models.Models;
@@ -13,9 +14,9 @@ namespace WuMortal.Dmhy.DataAnalysis
 {
     public class DmhyInfo : IDmhyInfo
     {
-        private HttpClient _httpClient;
+        readonly IDmhyHttpClient _httpClient;
 
-        public DmhyInfo(HttpClient httpClient)
+        public DmhyInfo(IDmhyHttpClient httpClient)
         {
             _httpClient = httpClient;
         }

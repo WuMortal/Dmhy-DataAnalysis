@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 using WuMortal.Dmhy.DataAnalysis.Core;
+using WuMortal.Dmhy.DataAnalysis.IClient;
 using WuMortal.Dmhy.DataAnalysis.Interface;
 using WuMortal.Dmhy.DataAnalysis.Models;
 using WuMortal.Dmhy.DataAnalysis.Models.Models;
@@ -12,9 +13,9 @@ namespace WuMortal.Dmhy.DataAnalysis
 {
     public class DmhyPost : IDmhyPost
     {
-        private HttpClient _httpClient;
+        readonly IDmhyHttpClient _httpClient;
 
-        public DmhyPost(HttpClient httpClient)
+        public DmhyPost(IDmhyHttpClient httpClient)
         {
             _httpClient = httpClient;
         }

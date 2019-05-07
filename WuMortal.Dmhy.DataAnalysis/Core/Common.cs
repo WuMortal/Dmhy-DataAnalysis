@@ -2,12 +2,13 @@
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
+using WuMortal.Dmhy.DataAnalysis.IClient;
 
 namespace WuMortal.Dmhy.DataAnalysis.Core
 {
     internal class Common
     {
-        public async static Task<string> DownloadHtmlAsync(HttpClient client, string url)
+        public async static Task<string> DownloadHtmlAsync(IDmhyHttpClient client, string url)
         {
             using (HttpResponseMessage message = await client.GetAsync(url))
             {
