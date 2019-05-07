@@ -1,3 +1,4 @@
+using System.Net.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WuMortal.Dmhy.DataAnalysis.Core;
 using WuMortal.Dmhy.DataAnalysis.Interface;
