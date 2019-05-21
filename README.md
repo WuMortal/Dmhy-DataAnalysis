@@ -57,7 +57,7 @@ DmhyExtensions：对 ASP.NET Core 支持，依赖注入。
 ``` cs
 using (HttpClient client = new HttpClient())
 {
-	DmhyFactory dmhyFactory = new DmhyFactory(new System.Net.Http.HttpClient());
+	DmhyFactory dmhyFactory = new DmhyFactory(client);
 	//生成 dmhyInfo 类
 	var _dmhyInfo = dmhyFactory.BuilderDmhyInfo();
 	//生成 dmhyPost 类
